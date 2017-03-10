@@ -830,6 +830,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 		text-align: center;
 		margin-bottom: 70px;
 		margin-top: 20px;
+		text-align: left;
+		z-index: 1;
 	}
 
 	.header-menu>ul>li {
@@ -843,6 +845,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 	.header-menu>ul>li>a  {
 		 padding: 9px 10px 0 10px;
 		font-size: 15px;
+		text-align: left;
 		}
 
 	.logo {
@@ -850,17 +853,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 		text-align: center;
 	}	
 	.header-menu>ul>li>a.last-link {
-		padding: 7px 42px 0 41px;
+		padding: 9px 10px 0 10px;
+		text-align: left;
 }
 	#dropdown {
 		width: inherit;
+		text-align: left;
 	}
 	#menu {
-		position: absolute;
+		position: relative;
 		height: 180px;
 		width: 100%;
 		left: 129px;
-		top: 0;
+		top: -36px;
+		text-align: center;
+		z-index: 1000;
 	}
 	#menu li {
 		float: none;
